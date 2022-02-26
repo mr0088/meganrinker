@@ -8,8 +8,10 @@ ul{
 
   li{
     font-family: kansasnew, serif;
-    font-size: 1em;
+    font-size: 2em;
     font-weight: 900;
+    color: #201e5a;
+    text-align: right;
   }
 }
 
@@ -27,6 +29,7 @@ ul{
     }
 
     .nav{
+      display: inline;
     }
   }
 }
