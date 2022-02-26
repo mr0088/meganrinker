@@ -13,20 +13,12 @@ ul{
 }
 
 img {
-  margin-left: 10px;
-  width:150px;
 
   &:hover{
     filter: opacity(50%);
   }
 }
 
-h1{
-  font-family: kansasnew, serif;
-  font-weight: 900;
-  font-size: 7em;
-  color: #93369d;
-}
 
 h2{
   font-family: kansasnew, serif;
@@ -51,15 +43,23 @@ p{
 }
 
 
-#intro {
-  position: relative;
-  float: left;
-  width: 500px;
+.intro {
+  h1{
+    font-family: kansasnew, serif;
+    font-weight: 900;
+    font-size: 5em;
+    color: #93369d;
+  }
+
+  h2{
+    font-family: kansasnew, serif;
+    font-weight: 800;
+    font-size: 2.3em;
+    color: #201e5a;
+  }
 }
 
-#selections {
-  position: relative;
-  float: right;
-  width: 500px;
+.selections {
+
 }
 }
