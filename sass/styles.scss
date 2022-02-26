@@ -12,13 +12,23 @@ ul{
   }
 }
 
-.navbar{
-  #nav{
+.header{
+  padding:0;
+
+  .navbar{
+    padding:0;
+
     .logo{
-      width:100%;
+      .img-fluid{
+        width:5.625em;
+      }
+    }
+
+    .nav{
     }
   }
 }
+
 
 
 
