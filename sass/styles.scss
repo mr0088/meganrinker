@@ -12,12 +12,14 @@ ul{
   }
 }
 
-img {
-
-  &:hover{
-    filter: opacity(50%);
+.navbar{
+  #nav{
+    .logo{
+      width:100%;
+    }
   }
 }
+
 
 
 h2{
