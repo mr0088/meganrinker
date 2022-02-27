@@ -103,17 +103,22 @@ p{
 
 
 .contact{
-
+  padding-bottom:7em;
   h2{
     text-align: center;
     font-size: 4em;
+    color: #93369d;
+    padding-bottom:0.3em;
   }
 
   ul{
     display: flex;
     li{
-      width:50%;
       padding: 0.2em;
+      padding-left: 0;
+      img{
+        width:85%;
+      }
     }
   }
 }
