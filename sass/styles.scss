@@ -44,12 +44,6 @@ h2{
   color: #201e5a;
 }
 
-h3{
-  font-family: kansasnew, serif;
-  font-weight: 800;
-  font-size: 3em;
-  color: #201e5a;
-}
 
 p{
 
@@ -64,19 +58,51 @@ p{
   h1{
     font-family: kansasnew, serif;
     font-weight: 900;
-    font-size: 7.5em;
+    font-size: 7.8em;
     color: #93369d;
+    text-align: center;
   }
 
   h2{
     font-family: kansasnew, serif;
     font-weight: 800;
-    font-size: 2.3em;
+    font-size: 2em;
     color: #201e5a;
+    text-align: center;
   }
 }
 
 .selections {
+  padding-top:1em;
 
+  h2{
+    font-size: 3em;
+    text-align: center;
+  }
+
+  h3{
+    font-family: kansasnew, serif;
+    font-weight: 800;
+    font-size: 2em;
+    color: #201e5a;
+  }
 }
+
+
+.contact{
+
+  h2{
+    text-align: center;
+  }
+
+  ul{
+    display: flex;
+    li{
+      width:50%;
+
+    }
+  }
+}
+
+
 }
