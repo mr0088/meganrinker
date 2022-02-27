@@ -25,6 +25,9 @@ ul{
       padding:0;
       .img-fluid{
         width:100%;
+        @media(min-width:576px){
+          width:75%;
+        }
       }
     }
 
@@ -82,7 +85,8 @@ p{
 }
 
 .selections {
-  padding-top:1em;
+  padding-top:5em;
+  padding-bottom: 7em;
 
   h2{
     font-size: 4em;
