@@ -59,9 +59,9 @@ ul{
 /* Position the close button (top right corner) */
 .overlay .closebtn {
   position: absolute;
-  top: 20px;
-  right: 45px;
-  font-size: 60px;
+  top: -25px;
+  right: 0.15em;
+  font-size: 5.5em;
 }
 
 /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
@@ -99,7 +99,10 @@ ul{
 
     span{
       img{
-        width:45%;
+        width:100%;
+        @media(min-width:576px){
+          width:75%;
+        }
       }
     }
 
