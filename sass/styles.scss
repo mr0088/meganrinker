@@ -80,7 +80,20 @@ p{
     font-size: 2em;
     color: #201e5a;
     text-align: center;
-    padding-bottom:4em;
+  }
+
+  button{
+    font-family: kansasnew, serif;
+    font-weight: 800;
+    font-size: 2em;
+    color: #201e5a;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+  }
+
+  p{
+    text-align: center;
   }
 }
 
@@ -121,6 +134,10 @@ p{
         width:85%;
       }
     }
+  }
+
+  p{
+    text-align: center;
   }
 }
 

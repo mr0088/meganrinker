@@ -16,6 +16,8 @@
 <body>
 <div class="container-fluid">
 
+
+
 <header class="header col-12">
   <nav class="navbar col-12">
 
@@ -23,19 +25,27 @@
     <a href="index.html"><img src="images/logo.png" class="img-fluid" alt="logo"></a>
   </div>
 
-<button class="navbar-toggler collapsed">
-  <span>
-    <i class="fas fa-bars" aria-hidden="true"></i>
-  </span>
-</button>
-
-<div class="navbar-collapse d-md-flex justify-content-end collapse" id="navbarNav">
-  <ul class="navbar-nav">
-    <li class="nav-item">ART</li>
-    <li class="nav-item">DESIGN</li>
-    <li class="nav-item">CONTACT</li>
-  </ul>
-</div>
+<!--MOBILE NAVIGATION!-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light d-md-none d-lg-none d-xl-none">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Art</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Design</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+<!--END OF MOBILE NAVIGATION-->
 
   <ul class="nav d-none col-md-8">
     <li class="nav-item">ART</li>
@@ -46,11 +56,15 @@
 </nav>
 </header>
 
+
+
+
 <section class="col-12">
 
 <div class="intro col-xs-12">
 <h1>Howdy.</h1>
-<h2 class="offset-1 col-10">I'm Megan Rinker, <br>a graphic designer.</h2>
+<h2 class="offset-1 col-10" id="titles">I'm Megan Rinker,<br>a graphic designer.</h2>
+<button onClick="change_text();">What else?</button>
 <p>Currently crafting all sorts of things in my home state of West Virginia, with a BFA in Graphic Design from West Virginia University.</p>
 </div>
 
@@ -67,7 +81,7 @@
 
 <div class="contact col-xs-12">
   <h2>Want to get in touch?</h2>
-  <p>Don't hesitate to reach out. I'm what the kids call a social butterfly.</p>
+  <p>Don't hesitate to reach out. I am always down to clown.</p>
 
   <ul class="socials col-12">
     <li><a href="#"><img src="images/email.png" class="img-fluid" alt="instagram"></a></li>
@@ -84,6 +98,12 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
 
+<script>
+  function change_text(){
+    document.getElementById("titles").innerHTML = "I'm Megan Rinker,<br> an artist.";
+    document.getElementById("titles").innerHTML = "I'm Megan Rinker,<br> an idiot.";
+}
+</script>
 
 </div>
 </body>
