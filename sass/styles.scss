@@ -161,6 +161,20 @@ p{
   p{
     text-align: center;
   }
+
+  .me{
+    padding-top: 2em;
+    p{
+      float: left;
+      padding-top:5em;
+      font-family: kansasnew, serif;
+      font-weight: 800;
+    }
+
+    .megan{
+      float:left;
+    }
+  }
 }
 
 .selections {
@@ -171,6 +185,7 @@ p{
     font-size: 3.5em;
     text-align: center;
     padding-bottom:1em;
+    padding-top:6em;
   }
 
   h3{
