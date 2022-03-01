@@ -218,6 +218,32 @@ p{
     font-size: 2em;
     color: #201e5a;
   }
+
+  .btn{
+    font-family: 'kansasnew';
+    font-weight: 800;
+    font-size: 1.5em;
+    color: #201c5a;
+
+    .down{
+    width: 12%;
+    position: absolute;
+    left: 75%;
+    }
+  }
+
+  .card{
+    border: none;
+    .card-header{
+      background-color: #fff;
+      border: 0.2em #46c6ac solid;
+      border-radius: 0.5em;
+    }
+  }
+
+  #headingTwo2{
+
+  }
 }
 
 
