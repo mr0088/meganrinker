@@ -172,7 +172,7 @@ p{
   }
 
   .me{
-    padding-top: 2em;
+    padding-top: 4em;
     position: relative;
     p{
       float: left;
@@ -189,7 +189,7 @@ p{
       float:left;
       position: absolute;
       left:0;
-      top:10em;
+      top:13em;
       @media(min-width:576px){
         top:13em;
       }
@@ -224,21 +224,22 @@ p{
     font-weight: 800;
     font-size: 1.5em;
     color: #201c5a;
-
-    .down{
-    width: 12%;
-    position: absolute;
-    left: 75%;
-    }
   }
+
 
   .card{
     border: none;
     .card-header{
       background-color: #fff;
-      border: 0.3em #46c6ac solid;
+      border: 0.35em #46c6ac solid;
       border-radius: 0.75em;
       margin-bottom: 1em;
+      padding: 0;
+
+      button{
+        text-decoration: none;
+        padding-right: 6em;
+      }
     }
   }
 }
