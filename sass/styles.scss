@@ -1,6 +1,21 @@
 body{
   width: 100%;
   margin: 0 auto;
+  background: linear-gradient(-45deg, #ffea96, #ffc09b, #90c6bb, #c799cc);
+  animation: gradient 5s ease infinite;
+  background-size: 400% 400%;
+
+  @keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
 
 ul{
   list-style: none;
@@ -149,13 +164,11 @@ p{
     font-size: 4.2em;
     @media(min-width:576px){
       font-size: 7em;
+      padding-top:1em;
     }
     color: #93369d;
     text-align: center;
-    padding-top:3em;
-    @media(min-width:576px){
-      padding-top:2em;
-    }
+    padding-top:2em;
   }
 
   h2{
@@ -165,6 +178,9 @@ p{
     color: #201e5a;
     text-align: center;
     padding-bottom: 4em;
+    @media(min-width: 576px){
+      padding-bottom:4em;
+    }
   }
 
   p{
@@ -181,6 +197,7 @@ p{
       font-weight: 800;
       @media(min-width:576px){
         font-size: 1.5em;
+        padding-top:5em;
       }
     }
 
@@ -191,12 +208,16 @@ p{
       left:0;
       top:13em;
       @media(min-width:576px){
-        top:13em;
+        top:18em;
       }
     }
 
     .megan{
       float:left;
+      @media(min-width: 576px){
+        width: 57%;
+        left: 2em;
+      }
     }
   }
 }
@@ -204,12 +225,18 @@ p{
 .selections {
   padding-top:5em;
   padding-bottom: 7em;
+  @media(min-width: 576px){
+    padding-bottom: 12em;
+  }
 
   h2{
     font-size: 3em;
     text-align: center;
-    padding-bottom:1em;
+    padding-bottom:1.5em;
     padding-top:9em;
+    @media(min-width: 576px){
+      padding-top:11em;
+    }
   }
 
   h3{
@@ -223,15 +250,16 @@ p{
     font-family: 'kansasnew';
     font-weight: 800;
     font-size: 1.5em;
-    color: #201c5a;
+    color: #fff;
   }
 
 
   .card{
+    background-color: transparent;
     border: none;
     .card-header{
-      background-color: #fff;
-      border: 0.35em #46c6ac solid;
+      background-color: #46C6AC;
+      border: 0.35em #46C6AC solid;
       border-radius: 0.75em;
       margin-bottom: 1em;
       padding: 0;
@@ -247,6 +275,9 @@ p{
 
 .contact{
   padding-bottom:7em;
+  @media(min-width: 576px){
+    padding-bottom: 13em;
+  }
   h2{
     text-align: center;
     font-size: 3em;
@@ -256,6 +287,9 @@ p{
 
   ul{
     display: flex;
+    @media(min-width: 576px){
+      padding-top:1em;
+    }
     li{
       padding: 0.2em;
       padding-left: 0;
