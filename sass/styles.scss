@@ -133,6 +133,10 @@ ul{
 
     .nav{
       display: inline;
+      padding-top: 1em;
+      li{
+        font-size: 1.75em;
+      }
     }
   }
 }
@@ -170,6 +174,10 @@ p{
       font-size: 7em;
       padding-top:1em;
     }
+    @media(min-width:768px){
+      font-size: 6em;
+      padding-top:1.5em;
+    }
     color: #93369d;
     text-align: center;
     padding-top:2em;
@@ -199,7 +207,13 @@ p{
       padding-top:3em;
       font-family: kansasnew, serif;
       font-weight: 800;
-      font-size:1em;
+      font-size:1.15em;
+      @media(min-width:400px){
+        padding-top: 4em;
+      }
+      @media(min-width: 500px){
+        padding-top:7em;
+      }
       @media(min-width:576px){
         font-size: 1.6em;
         padding-top:5em;
@@ -211,9 +225,15 @@ p{
       float:left;
       position: absolute;
       left:0;
-      top:13em;
+      top:14em;
+      @media(min-width:500px){
+        top:16em;
+      }
       @media(min-width:576px){
         top:18em;
+      }
+      @media(min-width:768px){
+        left: 13%;
       }
     }
 
@@ -222,6 +242,9 @@ p{
       @media(min-width: 576px){
         width: 57%;
         left: 2em;
+      }
+      @media(min-width:768px){
+        left: 6em;
       }
     }
   }
@@ -239,6 +262,9 @@ p{
     text-align: center;
     padding-bottom:1.5em;
     padding-top:7em;
+    @media(min-width:500px){
+      padding-top:9em;
+    }
     @media(min-width: 576px){
       padding-top:9em;
     }
@@ -279,8 +305,20 @@ p{
 
 #collapseTwo2 {
   .card-body{
-    p{
+    .art-caption{
       padding-top: 2em;
+    }
+  }
+}
+
+.card-body{
+  a{
+    text-decoration: none;
+    color: #201c5a;
+    p{
+      font-family: kansasnew, serif;
+      font-weight: 800;
+      font-size:1.15em;
     }
   }
 }
