@@ -111,21 +111,21 @@ ul{
     .logo{
       padding:0;
       .img-fluid{
-        width:100%;
+        width:85%;
         @media(min-width:576px){
-          width:75%;
+          width:65%;
         }
       }
     }
 
     span{
       img{
-        width:100%;
+        width:85%;
         @media(min-width:500px){
-          width:75%;
+          width:65%;
         }
         @media(min-width:576px){
-          width:75%;
+          width:55%;
         }
       }
     }
@@ -195,8 +195,9 @@ p{
       padding-top:3em;
       font-family: kansasnew, serif;
       font-weight: 800;
+      font-size:1em;
       @media(min-width:576px){
-        font-size: 1.5em;
+        font-size: 1.6em;
         padding-top:5em;
       }
     }
@@ -233,9 +234,9 @@ p{
     font-size: 3em;
     text-align: center;
     padding-bottom:1.5em;
-    padding-top:9em;
+    padding-top:7em;
     @media(min-width: 576px){
-      padding-top:11em;
+      padding-top:9em;
     }
   }
 
@@ -275,8 +276,10 @@ p{
 
 .contact{
   padding-bottom:7em;
+  padding-top:2em;
   @media(min-width: 576px){
     padding-bottom: 13em;
+    padding-top: 6em;
   }
   h2{
     text-align: center;
@@ -287,9 +290,7 @@ p{
 
   ul{
     display: flex;
-    @media(min-width: 576px){
-      padding-top:1em;
-    }
+    padding-top:1em;
     li{
       padding: 0.2em;
       padding-left: 0;
