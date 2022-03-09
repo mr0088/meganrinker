@@ -118,6 +118,9 @@ ul{
         @media(min-width:992px){
           width:45%;
         }
+        @media(min-width: 1200px){
+          width:35%;
+        }
       }
     }
 
@@ -237,6 +240,10 @@ p{
         font-size: 1.6em;
         padding-top:5em;
       }
+      @media(min-width:1200px){
+        padding-left: 6em;
+        padding-top: 7em;
+      }
     }
 
     .arrow{
@@ -257,6 +264,10 @@ p{
       @media(min-width: 992px){
         top: 16em;
       }
+      @media(min-width: 1200px){
+        left: 23%;
+        top: 20em;
+      }
     }
 
     .megan{
@@ -270,6 +281,13 @@ p{
       }
       @media(min-width:992px){
         width: 35%;
+      }
+      @media(min-width: 1200px){
+        width: 30%;
+        left: 9em;
+      }
+      @media(min-width:1400px){
+        width:25%;
       }
     }
   }
@@ -404,9 +422,15 @@ p{
     li{
       padding: 0.2em;
       padding-left: 0;
+      a{
+        &:hover{
+          filter: brightness(0.75);
+        }
+      }
+
       img{
         width:85%;
-        @media(min-width: 768px){
+        @media(min-width: 600px){
           width:65%;
         }
         @media(min-width: 992px){
