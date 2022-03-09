@@ -17,22 +17,6 @@ body{
     }
 }
 
-ul{
-  list-style: none;
-  display: inline;
-
-  li{
-    font-family: kansasnew, serif;
-    font-size: 2em;
-    font-weight: 900;
-    color: #201e5a;
-    text-align: right;
-  }
-}
-
-
-
-
 .overlay {
   height: 0%;
   width: 100%;
@@ -99,7 +83,18 @@ ul{
 
 
 
+ul{
+  list-style: none;
+  display: inline;
 
+  li{
+    font-family: kansasnew, serif;
+    font-size: 2em;
+    font-weight: 900;
+    color: #201e5a;
+    text-align: right;
+  }
+}
 
 
 .header{
@@ -112,8 +107,16 @@ ul{
       padding:0;
       .img-fluid{
         width:85%;
+        &:hover{
+          @media(min-width:992px){
+            filter: opacity(50%);
+          }
+        }
         @media(min-width:576px){
           width:65%;
+        }
+        @media(min-width:992px){
+          width:45%;
         }
       }
     }
@@ -136,6 +139,16 @@ ul{
       padding-top: 1em;
       li{
         font-size: 1.75em;
+      }
+
+      a{
+        text-decoration: none;
+        color: #201c5a;
+        &:hover{
+          @media(min-width: 992px){
+            color: #93369d;
+          }
+        }
       }
     }
   }
@@ -178,6 +191,9 @@ p{
       font-size: 6em;
       padding-top:1.5em;
     }
+    @media(min-width:992px){
+      padding-top:1.75em;
+    }
     color: #93369d;
     text-align: center;
     padding-top:2em;
@@ -192,6 +208,9 @@ p{
     padding-bottom: 4em;
     @media(min-width: 576px){
       padding-bottom:4em;
+    }
+    @media(min-width:992px){
+      padding-bottom:7em;
     }
   }
 
@@ -235,6 +254,9 @@ p{
       @media(min-width:768px){
         left: 13%;
       }
+      @media(min-width: 992px){
+        top: 16em;
+      }
     }
 
     .megan{
@@ -244,7 +266,10 @@ p{
         left: 2em;
       }
       @media(min-width:768px){
-        left: 6em;
+        left: 5em;
+      }
+      @media(min-width:992px){
+        width: 35%;
       }
     }
   }
@@ -255,6 +280,9 @@ p{
   padding-bottom: 7em;
   @media(min-width: 576px){
     padding-bottom: 12em;
+  }
+  @media(min-width:992px){
+    padding-top: 13em;
   }
 
   h2{
@@ -285,6 +313,16 @@ p{
   }
 
 
+  #accordionExample275{
+    @media(min-width: 576px){
+      width: 430px;
+      margin: 0 auto;
+    }
+    @media(min-width: 992px){
+      width: 500px;
+    }
+  }
+
   .card{
     background-color: transparent;
     border: none;
@@ -298,6 +336,12 @@ p{
       button{
         text-decoration: none;
         padding-right: 6em;
+        @media(min-width:992px){
+          padding-right: 12em;
+          &:hover{
+            color: #201c5a;
+          }
+        }
       }
     }
   }
@@ -315,10 +359,21 @@ p{
   a{
     text-decoration: none;
     color: #201c5a;
+    &:hover{
+      color: #93369d;
+    }
     p{
       font-family: kansasnew, serif;
       font-weight: 800;
       font-size:1.15em;
+    }
+  }
+}
+
+#headingTwo2{
+  button{
+    @media(min-width:992px){
+      padding-right: 14em;
     }
   }
 }
@@ -330,6 +385,9 @@ p{
     padding-bottom: 13em;
     padding-top: 6em;
   }
+  @media(min-width: 768px){
+    padding-bottom: 10em;
+  }
   h2{
     text-align: center;
     font-size: 3em;
@@ -340,11 +398,20 @@ p{
   ul{
     display: flex;
     padding-top:1em;
+    @media(min-width:992px){
+      padding-left: 3em;
+    }
     li{
       padding: 0.2em;
       padding-left: 0;
       img{
         width:85%;
+        @media(min-width: 768px){
+          width:65%;
+        }
+        @media(min-width: 992px){
+          width:50%;
+        }
       }
     }
   }
