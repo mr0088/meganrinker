@@ -47,17 +47,17 @@ body{
   }
 }
 
-/* The navigation links inside the overlay */
+
 .overlay a {
   padding: 8px;
   text-decoration: none;
   font-size: 2em;
   color: #fff;
-  display: block; /* Display block instead of inline */
-  transition: 0.3s; /* Transition effects on hover (color) */
+  display: block;
+  transition: 0.3s;
 }
 
-/* When you mouse over the navigation links, change their color */
+
 .overlay a:hover, .overlay a:focus {
   color: #ffcc00;
 }
@@ -124,7 +124,7 @@ ul{
           width:45%;
         }
         @media(min-width: 1200px){
-          width:35%;
+          width:30%;
         }
       }
     }
@@ -143,10 +143,11 @@ ul{
     }
 
     .nav{
-      display: inline;
       padding-top: 1em;
+      padding-right: 1em;
       li{
         font-size: 1.75em;
+        padding-left: 1.5em;
       }
 
       a{
