@@ -65,9 +65,9 @@ body{
 /* Position the close button (top right corner) */
 .overlay .closebtn {
   position: absolute;
-  top: -25px;
-  right: 0.15em;
-  font-size: 5.5em;
+  top: -40px;
+  right: 25px;
+  font-size: 100px;
 }
 
 /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
@@ -470,6 +470,45 @@ p{
 
   p{
     text-align: center;
+  }
+}
+
+/*FOR CONTACT PAGE*/
+
+label{
+  font-family: kansasnew, serif;
+  font-weight: 800;
+  font-size: 1.25em;
+  color: #201e5a;
+}
+
+textarea {
+  border-radius: 0.5em;
+  border: solid #fff 0.25em;
+}
+
+#email {
+  border-radius: 0.5em;
+  border: solid #fff 0.25em;
+}
+
+#name{
+  border-radius: 0.5em;
+  border: solid #fff 0.25em;
+}
+
+input{
+  margin-bottom:1em;
+}
+
+form{
+  button{
+    background-color: #46C6AC;
+    border: 0.35em #46C6AC solid;
+    border-radius: 0.5em;
+    color: #fff;
+    font-family: kansasnew, serif;
+    font-weight: 600;
   }
 }
 
