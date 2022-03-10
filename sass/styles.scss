@@ -475,6 +475,10 @@ p{
 
 /*FOR CONTACT PAGE*/
 
+#contact-intro{
+  padding-bottom: 2em;
+}
+
 label{
   font-family: kansasnew, serif;
   font-weight: 800;
@@ -509,8 +513,17 @@ form{
     color: #fff;
     font-family: kansasnew, serif;
     font-weight: 600;
+    margin-top: 2em;
   }
 }
 
+#contact-socials {
+  padding-top: 6em;
+  padding-bottom: 1em;
+}
+
+#form-contact {
+  padding-bottom: 3em;
+}
 
 }
