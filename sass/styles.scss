@@ -514,12 +514,34 @@ form{
     font-family: kansasnew, serif;
     font-weight: 600;
     margin-top: 2em;
+    width: 7em;
+
+    &:hover{
+      color: #201c5a;
+    }
   }
 }
 
 #contact-socials {
   padding-top: 6em;
-  padding-bottom: 1em;
+  padding-bottom: 0;
+  margin-bottom: 0;
+
+  img{
+    @media(min-width:992px){
+      width:80%;
+    }
+
+    @media(min-width:1200px){
+      width:70%;
+    }
+  }
+
+  li{
+    @media(min-width:992px){
+
+    }
+  }
 }
 
 #form-contact {
