@@ -107,6 +107,7 @@ ul{
     .logo{
       padding:0;
       .img-fluid{
+        transition: 0.3s;
         width:65%;
         &:hover{
           @media(min-width:992px){
@@ -132,12 +133,17 @@ ul{
     span{
       img{
         width:85%;
+        transition: .3s;
         @media(min-width:500px){
           width:65%;
         }
         @media(min-width:576px){
           width:55%;
           margin-left:2em;
+        }
+
+        &:hover{
+          filter: opacity(50%)
         }
       }
     }
@@ -153,6 +159,7 @@ ul{
       a{
         text-decoration: none;
         color: #201c5a;
+        transition: 0.3s;
         &:hover{
           @media(min-width: 992px){
             color: #93369d;
@@ -312,7 +319,7 @@ p{
 }
 
 .selections {
-  padding-top:5em;
+  padding-top:8em;
   padding-bottom: 15em;
   @media(min-width: 576px){
     padding-bottom: 12em;
@@ -372,6 +379,7 @@ p{
       button{
         text-decoration: none;
         padding-right: 6em;
+        transition: 0.3s;
         @media(min-width:992px){
           padding-right: 12em;
           &:hover{
@@ -451,6 +459,7 @@ p{
         text-align: center;
       }
       a{
+        transition: 0.3s;
         &:hover{
           filter: brightness(0.75);
         }
@@ -515,6 +524,7 @@ form{
     font-weight: 600;
     margin-top: 2em;
     width: 7em;
+    transition: 0.3s;
 
     &:hover{
       color: #201c5a;
