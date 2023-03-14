@@ -6,12 +6,12 @@ $field_subject = $_POST['Subject'];
 
 
 $mail_to = 'mr0088@mix.wvu.edu';
-$subject = 'Message from .$field_name';
+$subject = 'Message from '.$field_name;
 
-$body_message = 'From: .$field_name."\r\n"';
-$body_message .= 'E-mail: .$field_email."\r\n"';
-$body_message .= 'Subject: .$field_subject."\r\n"';
-$body_message .= 'Message: .$field_message."\r\n"';
+$body_message = 'From: '.$field_name."\r\n";
+$body_message .= 'E-mail: '.$field_email."\r\n";
+$body_message .= 'Subject: '.$field_subject."\r\n";
+$body_message .= 'Message: '.$field_message."\r\n";
 
 $mail_status = mail($mail_to, $subject, $body_message);
 
