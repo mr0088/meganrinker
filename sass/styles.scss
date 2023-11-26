@@ -559,3 +559,37 @@ form{
 }
 
 }
+
+.jakecontent{
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 4em;
+
+  img{
+    padding:2em;
+  }
+
+  h1{
+    font-family: kansasnew, serif;
+    font-weight: 800;
+    font-size: 3em;
+    color: #201c5a;
+  }
+
+  p{
+    font-family: poppins, sans-serif;
+    font-weight: 300;
+    padding-top:1em;
+  }
+
+  a{
+      color: #201c5a;
+      font-family: poppins, sans-serif;
+      font-weight: 400;
+      padding-top: 2em;
+      &:hover{
+        color: #93369d;
+        text-decoration: none;
+      }
+  }
+}
